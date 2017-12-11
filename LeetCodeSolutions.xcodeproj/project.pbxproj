@@ -15,6 +15,7 @@
 		F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */; };
 		F56B34221FDE595E00F7F9D1 /* Solution575.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34211FDE595E00F7F9D1 /* Solution575.swift */; };
 		F56B34241FDE61B600F7F9D1 /* Solution657.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34231FDE61B600F7F9D1 /* Solution657.swift */; };
+		F56B342E1FDE866700F7F9D1 /* Solution292.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B342D1FDE866700F7F9D1 /* Solution292.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution476.swift; sourceTree = "<group>"; };
 		F56B34211FDE595E00F7F9D1 /* Solution575.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution575.swift; sourceTree = "<group>"; };
 		F56B34231FDE61B600F7F9D1 /* Solution657.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution657.swift; sourceTree = "<group>"; };
+		F56B342D1FDE866700F7F9D1 /* Solution292.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution292.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */,
 				F56B34211FDE595E00F7F9D1 /* Solution575.swift */,
 				F56B34231FDE61B600F7F9D1 /* Solution657.swift */,
+				F56B342D1FDE866700F7F9D1 /* Solution292.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */,
 				F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */,
+				F56B342E1FDE866700F7F9D1 /* Solution292.swift in Sources */,
 				F56B34241FDE61B600F7F9D1 /* Solution657.swift in Sources */,
 				F56B34221FDE595E00F7F9D1 /* Solution575.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
