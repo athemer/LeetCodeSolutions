@@ -12,6 +12,7 @@
 		F56B34121FDE4F2A00F7F9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */; };
 		F56B34141FDE4F2A00F7F9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56B34131FDE4F2A00F7F9D1 /* Assets.xcassets */; };
 		F56B34171FDE4F2A00F7F9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56B34151FDE4F2A00F7F9D1 /* LaunchScreen.storyboard */; };
+		F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F56B34131FDE4F2A00F7F9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56B34161FDE4F2A00F7F9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F56B34181FDE4F2A00F7F9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution476.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */,
 				F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */,
+				F56B341E1FDE4F4100F7F9D1 /* Solutions */,
 				F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */,
 				F56B34131FDE4F2A00F7F9D1 /* Assets.xcassets */,
 				F56B34151FDE4F2A00F7F9D1 /* LaunchScreen.storyboard */,
 				F56B34181FDE4F2A00F7F9D1 /* Info.plist */,
 			);
 			path = LeetCodeSolutions;
+			sourceTree = "<group>";
+		};
+		F56B341E1FDE4F4100F7F9D1 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */,
+			);
+			path = Solutions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */,
 				F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
 			);
