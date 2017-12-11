@@ -9,8 +9,6 @@
 
 //  The move sequence is represented by a string. And each move is represent by a character. The valid robot moves are R (Right), L (Left), U (Up) and D (down). The output should be true or false representing whether the robot makes a circle.
 
-
-
 import Foundation
 
 // MARK: Answer - 1
@@ -44,7 +42,6 @@ class Solution657 {
             return false
         }
     }}
-
 
 // MARK: OtherSolutions - 1
 //func judgeCircle(_ moves: String) -> Bool {
