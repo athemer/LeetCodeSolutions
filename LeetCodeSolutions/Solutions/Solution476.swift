@@ -1,9 +1,22 @@
 
 
-// Beat 14.71% Swift answers
+// MARK: Beat -
+// 14.71% Swift answers
+
+// MARK: Reference -
+// https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AdvancedOperators.html
+
+// MARK: Question -
+//Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
+//
+//Note:
+//The given integer is guaranteed to fit within the range of a 32-bit signed integer.
+//You could assume no leading zero bit in the integer’s binary representation.
+
 
 import Foundation
 
+// MARK: Answer - 1
 class Solution476 {
     
     func findComplement(_ num: Int) -> Int {
@@ -27,7 +40,7 @@ class Solution476 {
 }
 
 
-// OtherSolutions - 1
+// MARK: OtherSolutions - 1
 
 //func findComplement(_ num: Int) -> Int {
 //    var cur = num
@@ -42,7 +55,7 @@ class Solution476 {
 //}
 
 
-// OtherSolutions - 2
+// MARK: OtherSolutions - 2
 //func findComplement(_ num: Int) -> Int {
 //    var i = 1
 //    while i <= num {
