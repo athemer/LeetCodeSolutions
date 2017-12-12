@@ -19,6 +19,7 @@
 		F56B34301FDE8CFF00F7F9D1 /* Solution389.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B342F1FDE8CFF00F7F9D1 /* Solution389.swift */; };
 		F56B34341FDFB18100F7F9D1 /* Solution485.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34331FDFB18100F7F9D1 /* Solution485.swift */; };
 		F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34351FDFB9E900F7F9D1 /* Solution441.swift */; };
+		F56B34381FDFCB5B00F7F9D1 /* Solution258.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F56B342F1FDE8CFF00F7F9D1 /* Solution389.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution389.swift; sourceTree = "<group>"; };
 		F56B34331FDFB18100F7F9D1 /* Solution485.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution485.swift; sourceTree = "<group>"; };
 		F56B34351FDFB9E900F7F9D1 /* Solution441.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution441.swift; sourceTree = "<group>"; };
+		F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution258.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				F56B342F1FDE8CFF00F7F9D1 /* Solution389.swift */,
 				F56B34331FDFB18100F7F9D1 /* Solution485.swift */,
 				F56B34351FDFB9E900F7F9D1 /* Solution441.swift */,
+				F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */,
 			);
 			path = "Easy Level Solutions";
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */,
 				F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */,
+				F56B34381FDFCB5B00F7F9D1 /* Solution258.swift in Sources */,
 				F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */,
 				F56B34341FDFB18100F7F9D1 /* Solution485.swift in Sources */,
 				F56B342E1FDE866700F7F9D1 /* Solution292.swift in Sources */,

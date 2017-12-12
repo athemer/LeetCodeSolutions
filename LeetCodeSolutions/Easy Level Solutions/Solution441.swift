@@ -1,5 +1,5 @@
 // MARK: Beat -
-// % Swift answers
+// 23.53% Swift answers
 
 // MARK: Reference -
 
@@ -14,18 +14,44 @@ import Foundation
 class Solution441 {
     func arrangeCoins(_ n: Int) -> Int {
         
-        // 1+2+3+4+5+6+7+8+9+10
-        //
+        var cumulatedInt: Int = 0
+        var IntToReturn: Int = 0
         
-        // n = (1 + k) * h / 2
+        switch n {
+        case 0:  return 0
+        case 1:  return 1
+        case 2:  return 1
+        case 3:  return 2
+        case 4:  return 2
+        default: break
+        }
         
-        return 0
+        for i in 0...n {
+            
+            if cumulatedInt > n {
+                IntToReturn = i - 2
+                break
+            } else if cumulatedInt == n {
+                IntToReturn = i - 1
+                break
+            }
+            
+            cumulatedInt += i
+        }
+        
+        return IntToReturn
     }
 }
 
 // MARK: OtherSolutions - 1
-
+//var numberOfStepsTaken = 0;
+//var coinsLeft = n;
+//while(numberOfStepsTaken < coinsLeft) {
+//    numberOfStepsTaken += 1;
+//    coinsLeft -= numberOfStepsTaken;
+//}
+//return numberOfStepsTaken
 
 // MARK: OtherSolutions - 2
-
+//return Int(sqrt(2.0*Double(n)+0.25)-0.5)
 
