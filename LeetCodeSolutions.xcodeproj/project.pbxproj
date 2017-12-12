@@ -17,6 +17,8 @@
 		F56B34241FDE61B600F7F9D1 /* Solution657.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34231FDE61B600F7F9D1 /* Solution657.swift */; };
 		F56B342E1FDE866700F7F9D1 /* Solution292.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B342D1FDE866700F7F9D1 /* Solution292.swift */; };
 		F56B34301FDE8CFF00F7F9D1 /* Solution389.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B342F1FDE8CFF00F7F9D1 /* Solution389.swift */; };
+		F56B34341FDFB18100F7F9D1 /* Solution485.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34331FDFB18100F7F9D1 /* Solution485.swift */; };
+		F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34351FDFB9E900F7F9D1 /* Solution441.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F56B34231FDE61B600F7F9D1 /* Solution657.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution657.swift; sourceTree = "<group>"; };
 		F56B342D1FDE866700F7F9D1 /* Solution292.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution292.swift; sourceTree = "<group>"; };
 		F56B342F1FDE8CFF00F7F9D1 /* Solution389.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution389.swift; sourceTree = "<group>"; };
+		F56B34331FDFB18100F7F9D1 /* Solution485.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution485.swift; sourceTree = "<group>"; };
+		F56B34351FDFB9E900F7F9D1 /* Solution441.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution441.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,7 @@
 			children = (
 				F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */,
 				F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */,
-				F56B341E1FDE4F4100F7F9D1 /* Solutions */,
+				F56B341E1FDE4F4100F7F9D1 /* Easy Level Solutions */,
 				F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */,
 				F56B34131FDE4F2A00F7F9D1 /* Assets.xcassets */,
 				F56B34151FDE4F2A00F7F9D1 /* LaunchScreen.storyboard */,
@@ -75,7 +79,7 @@
 			path = LeetCodeSolutions;
 			sourceTree = "<group>";
 		};
-		F56B341E1FDE4F4100F7F9D1 /* Solutions */ = {
+		F56B341E1FDE4F4100F7F9D1 /* Easy Level Solutions */ = {
 			isa = PBXGroup;
 			children = (
 				F56B341F1FDE4F6100F7F9D1 /* Solution476.swift */,
@@ -83,8 +87,10 @@
 				F56B34231FDE61B600F7F9D1 /* Solution657.swift */,
 				F56B342D1FDE866700F7F9D1 /* Solution292.swift */,
 				F56B342F1FDE8CFF00F7F9D1 /* Solution389.swift */,
+				F56B34331FDFB18100F7F9D1 /* Solution485.swift */,
+				F56B34351FDFB9E900F7F9D1 /* Solution441.swift */,
 			);
-			path = Solutions;
+			path = "Easy Level Solutions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */,
+				F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */,
 				F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */,
+				F56B34341FDFB18100F7F9D1 /* Solution485.swift in Sources */,
 				F56B342E1FDE866700F7F9D1 /* Solution292.swift in Sources */,
 				F56B34241FDE61B600F7F9D1 /* Solution657.swift in Sources */,
 				F56B34221FDE595E00F7F9D1 /* Solution575.swift in Sources */,
