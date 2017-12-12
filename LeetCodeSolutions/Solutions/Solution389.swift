@@ -20,4 +20,8 @@ class Solution389 {
 }
 
 // MARK: OtherSolutions - 1
+//var sumS = [UInt8](s.utf8).map { Int($0) }.reduce(0){$0 + $1}
+//var sumT = [UInt8](t.utf8).map { Int($0) }.reduce(0){$0 + $1}
+//
+//return Character(UnicodeScalar(sumT - sumS)!)
 
