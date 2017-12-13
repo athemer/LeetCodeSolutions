@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let sol = Solution520()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print (" CHECK FOR ANSWER", sol.detectCapitalUse("LeeTCode"))
     }
 
     override func didReceiveMemoryWarning() {
