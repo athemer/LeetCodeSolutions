@@ -21,6 +21,7 @@
 		F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34351FDFB9E900F7F9D1 /* Solution441.swift */; };
 		F56B34381FDFCB5B00F7F9D1 /* Solution258.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */; };
 		F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB0581FE0D551002C3848 /* Solution520.swift */; };
+		F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB05A1FE12629002C3848 /* Solution283.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F56B34351FDFB9E900F7F9D1 /* Solution441.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution441.swift; sourceTree = "<group>"; };
 		F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution258.swift; sourceTree = "<group>"; };
 		F5DEB0581FE0D551002C3848 /* Solution520.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution520.swift; sourceTree = "<group>"; };
+		F5DEB05A1FE12629002C3848 /* Solution283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution283.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				F56B34351FDFB9E900F7F9D1 /* Solution441.swift */,
 				F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */,
 				F5DEB0581FE0D551002C3848 /* Solution520.swift */,
+				F5DEB05A1FE12629002C3848 /* Solution283.swift */,
 			);
 			path = "Easy Level Solutions";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				F56B34241FDE61B600F7F9D1 /* Solution657.swift in Sources */,
 				F56B34221FDE595E00F7F9D1 /* Solution575.swift in Sources */,
 				F56B34301FDE8CFF00F7F9D1 /* Solution389.swift in Sources */,
+				F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
