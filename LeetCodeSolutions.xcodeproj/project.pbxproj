@@ -26,6 +26,7 @@
 		F5CACAA01FE3D90D00FF38F5 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA9F1FE3D90D00FF38F5 /* BubbleSort.swift */; };
 		F5CACAA21FE74F3000FF38F5 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACAA11FE74F2F00FF38F5 /* QuickSort.swift */; };
 		F5CACAA41FE76A0A00FF38F5 /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACAA31FE76A0A00FF38F5 /* Solution121.swift */; };
+		F5CACAA61FE78EE500FF38F5 /* Solution53.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACAA51FE78EE500FF38F5 /* Solution53.swift */; };
 		F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB0581FE0D551002C3848 /* Solution520.swift */; };
 		F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB05A1FE12629002C3848 /* Solution283.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		F5CACA9F1FE3D90D00FF38F5 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		F5CACAA11FE74F2F00FF38F5 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		F5CACAA31FE76A0A00FF38F5 /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
+		F5CACAA51FE78EE500FF38F5 /* Solution53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution53.swift; sourceTree = "<group>"; };
 		F5DEB0581FE0D551002C3848 /* Solution520.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution520.swift; sourceTree = "<group>"; };
 		F5DEB05A1FE12629002C3848 /* Solution283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution283.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 				F5CACA991FE2633D00FF38F5 /* Solution415.swift */,
 				F5CACA9B1FE2762700FF38F5 /* Solution202.swift */,
 				F5CACAA31FE76A0A00FF38F5 /* Solution121.swift */,
+				F5CACAA51FE78EE500FF38F5 /* Solution53.swift */,
 			);
 			path = "Easy Level Solutions";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CACAA61FE78EE500FF38F5 /* Solution53.swift in Sources */,
 				F5CACA981FE2610600FF38F5 /* Solution268.swift in Sources */,
 				F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */,
 				F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */,

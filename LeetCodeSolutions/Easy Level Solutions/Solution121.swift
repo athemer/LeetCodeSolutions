@@ -11,6 +11,7 @@ import Foundation
 // MARK: Answer - 1
 class Solution121 {
     
+    // ====== This Answer failed at testcase 173, check for other soloution below
     func maxProfit(_ prices: [Int]) -> Int {
         
         let sortedPreices = prices.enumerated().sorted{ $0.element < $1.element }
@@ -18,12 +19,7 @@ class Solution121 {
         
         for price in sortedPreices {
             var isFound = false
-            print (" ===== ", price.element, price.offset)
-            
             for priceReversed in sortedPreices.reversed() {
-                
-                print (" XXXXXX ", priceReversed.element, priceReversed.offset)
-                
                 if price.offset < priceReversed.offset && price.element < priceReversed.element {
                     intToReturn = priceReversed.element - price.element
                     isFound = true
