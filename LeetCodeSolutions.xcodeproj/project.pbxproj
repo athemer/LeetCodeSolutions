@@ -23,6 +23,8 @@
 		F5CACA981FE2610600FF38F5 /* Solution268.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA971FE2610600FF38F5 /* Solution268.swift */; };
 		F5CACA9A1FE2633D00FF38F5 /* Solution415.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA991FE2633D00FF38F5 /* Solution415.swift */; };
 		F5CACA9C1FE2762700FF38F5 /* Solution202.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA9B1FE2762700FF38F5 /* Solution202.swift */; };
+		F5CACAA01FE3D90D00FF38F5 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA9F1FE3D90D00FF38F5 /* BubbleSort.swift */; };
+		F5CACAA21FE74F3000FF38F5 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACAA11FE74F2F00FF38F5 /* QuickSort.swift */; };
 		F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB0581FE0D551002C3848 /* Solution520.swift */; };
 		F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB05A1FE12629002C3848 /* Solution283.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		F5CACA971FE2610600FF38F5 /* Solution268.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution268.swift; sourceTree = "<group>"; };
 		F5CACA991FE2633D00FF38F5 /* Solution415.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution415.swift; sourceTree = "<group>"; };
 		F5CACA9B1FE2762700FF38F5 /* Solution202.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution202.swift; sourceTree = "<group>"; };
+		F5CACA9F1FE3D90D00FF38F5 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		F5CACAA11FE74F2F00FF38F5 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		F5DEB0581FE0D551002C3848 /* Solution520.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution520.swift; sourceTree = "<group>"; };
 		F5DEB05A1FE12629002C3848 /* Solution283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution283.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,7 @@
 			children = (
 				F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */,
 				F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */,
+				F5CACA9E1FE3D8F400FF38F5 /* Sort */,
 				F56B341E1FDE4F4100F7F9D1 /* Easy Level Solutions */,
 				F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */,
 				F56B34131FDE4F2A00F7F9D1 /* Assets.xcassets */,
@@ -109,6 +114,15 @@
 				F5CACA9B1FE2762700FF38F5 /* Solution202.swift */,
 			);
 			path = "Easy Level Solutions";
+			sourceTree = "<group>";
+		};
+		F5CACA9E1FE3D8F400FF38F5 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				F5CACA9F1FE3D90D00FF38F5 /* BubbleSort.swift */,
+				F5CACAA11FE74F2F00FF38F5 /* QuickSort.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +211,9 @@
 				F56B34221FDE595E00F7F9D1 /* Solution575.swift in Sources */,
 				F56B34301FDE8CFF00F7F9D1 /* Solution389.swift in Sources */,
 				F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */,
+				F5CACAA21FE74F3000FF38F5 /* QuickSort.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
+				F5CACAA01FE3D90D00FF38F5 /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
