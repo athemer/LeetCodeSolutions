@@ -46,28 +46,34 @@ class Solution526 {
 }
 
 // MARK: OtherSolutions - 1
-func counts(_ n: Int, _ result: inout [Int]) -> Int {
-    if n <= 0 {
-        return 1
-    }
-    
-    var total = 0
-    for i in 0..<n {
-        if result[i] % n == 0 || n % result[i] == 0 {
-            result.swapAt(i, n - 1)
-            total += counts(n - 1, &result)
-            result.swapAt(i, n - 1)
-        }
-    }
-    
-    return total
-}
 
-func countArrangement(_ N: Int) -> Int {
-    var result: [Int] = Array(repeating: 0, count: N)
-    for i in 0..<N {
-        result[i] = i + 1
-    }
-    
-    return counts(N, &result)
-}
+//class Solution526d2 {
+//func counts(_ n: Int, _ result: inout [Int]) -> Int {
+//
+//    print (" ==== ", result)
+//
+//    if n <= 0 {
+//        return 1
+//    }
+//
+//    var total = 0
+//    for i in 0..<n {
+//        if result[i] % n == 0 || n % result[i] == 0 {
+//            result.swapAt(i, n - 1)
+//            total += counts(n - 1, &result)
+//            result.swapAt(i, n - 1)
+//        }
+//    }
+//
+//    return total
+//}
+//
+//func countArrangement(_ N: Int) -> Int {
+//    var result: [Int] = Array(repeating: 0, count: N)
+//    for i in 0..<N {
+//        result[i] = i + 1
+//    }
+//    return counts(N, &result)
+//}
+//}
+
