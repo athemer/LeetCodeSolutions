@@ -20,6 +20,8 @@
 		F56B34341FDFB18100F7F9D1 /* Solution485.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34331FDFB18100F7F9D1 /* Solution485.swift */; };
 		F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34351FDFB9E900F7F9D1 /* Solution441.swift */; };
 		F56B34381FDFCB5B00F7F9D1 /* Solution258.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */; };
+		F59D93F91FE8BF3E0081A0E1 /* Solution739.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D93F81FE8BF3E0081A0E1 /* Solution739.swift */; };
+		F59D93FB1FE8EBE20081A0E1 /* Solution526.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D93FA1FE8EBE20081A0E1 /* Solution526.swift */; };
 		F5CACA981FE2610600FF38F5 /* Solution268.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA971FE2610600FF38F5 /* Solution268.swift */; };
 		F5CACA9A1FE2633D00FF38F5 /* Solution415.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA991FE2633D00FF38F5 /* Solution415.swift */; };
 		F5CACA9C1FE2762700FF38F5 /* Solution202.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACA9B1FE2762700FF38F5 /* Solution202.swift */; };
@@ -47,6 +49,8 @@
 		F56B34331FDFB18100F7F9D1 /* Solution485.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution485.swift; sourceTree = "<group>"; };
 		F56B34351FDFB9E900F7F9D1 /* Solution441.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution441.swift; sourceTree = "<group>"; };
 		F56B34371FDFCB5B00F7F9D1 /* Solution258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution258.swift; sourceTree = "<group>"; };
+		F59D93F81FE8BF3E0081A0E1 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
+		F59D93FA1FE8EBE20081A0E1 /* Solution526.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution526.swift; sourceTree = "<group>"; };
 		F5CACA971FE2610600FF38F5 /* Solution268.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution268.swift; sourceTree = "<group>"; };
 		F5CACA991FE2633D00FF38F5 /* Solution415.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution415.swift; sourceTree = "<group>"; };
 		F5CACA9B1FE2762700FF38F5 /* Solution202.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution202.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */,
 				F5CACA9E1FE3D8F400FF38F5 /* Sort */,
 				F56B341E1FDE4F4100F7F9D1 /* Easy Level Solutions */,
+				F59D93F71FE8BF1B0081A0E1 /* Medium Level Solutions */,
 				F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */,
 				F56B34131FDE4F2A00F7F9D1 /* Assets.xcassets */,
 				F56B34151FDE4F2A00F7F9D1 /* LaunchScreen.storyboard */,
@@ -120,6 +125,15 @@
 				F5CACAA51FE78EE500FF38F5 /* Solution53.swift */,
 			);
 			path = "Easy Level Solutions";
+			sourceTree = "<group>";
+		};
+		F59D93F71FE8BF1B0081A0E1 /* Medium Level Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				F59D93F81FE8BF3E0081A0E1 /* Solution739.swift */,
+				F59D93FA1FE8EBE20081A0E1 /* Solution526.swift */,
+			);
+			path = "Medium Level Solutions";
 			sourceTree = "<group>";
 		};
 		F5CACA9E1FE3D8F400FF38F5 /* Sort */ = {
@@ -209,6 +223,7 @@
 				F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */,
 				F5CACA9C1FE2762700FF38F5 /* Solution202.swift in Sources */,
 				F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */,
+				F59D93FB1FE8EBE20081A0E1 /* Solution526.swift in Sources */,
 				F56B34381FDFCB5B00F7F9D1 /* Solution258.swift in Sources */,
 				F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */,
 				F56B34341FDFB18100F7F9D1 /* Solution485.swift in Sources */,
@@ -219,6 +234,7 @@
 				F56B34301FDE8CFF00F7F9D1 /* Solution389.swift in Sources */,
 				F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */,
 				F5CACAA21FE74F3000FF38F5 /* QuickSort.swift in Sources */,
+				F59D93F91FE8BF3E0081A0E1 /* Solution739.swift in Sources */,
 				F5CACAA41FE76A0A00FF38F5 /* Solution121.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
 				F5CACAA01FE3D90D00FF38F5 /* BubbleSort.swift in Sources */,
