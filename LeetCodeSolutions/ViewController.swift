@@ -10,13 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let sol = Solution526d2()
+    let sol = Solution475()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print (" CHECK FOR ANSWER 121 ===== ", sol.countArrangement(15))
+        let houses = [1,2,3,4,5,6,7,8,9,10,11]
+        let heaters = [1,5,7]
+        
+        print (" CHECK FOR ANSWER 475 ===== ", sol.findRadius(houses, heaters))
     }
 
     override func didReceiveMemoryWarning() {
