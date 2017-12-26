@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let sol = Solution739()
+    let sol = Solution496()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,8 +18,10 @@ class ViewController: UIViewController {
         
         let array = [73, 74, 75, 71, 69, 72, 76, 73]
         
+        let num1 = [4,1,2]
+        let num2 = [1,3,2,4]
         
-        print (" CHECK FOR ANSWER 475 ===== ", sol.testmethod(array))
+        print (" CHECK FOR ANSWER 475 ===== ", sol.nextGreaterElement(num1, num2) )
     }
 
     override func didReceiveMemoryWarning() {
