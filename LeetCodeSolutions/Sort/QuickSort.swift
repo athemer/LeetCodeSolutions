@@ -40,8 +40,6 @@ func partitionLomuto<T: Comparable>(_ a: inout [T], low: Int, high: Int) -> Int 
     return i
 }
 
-
-// Random
 func quicksortRandom<T: Comparable>(_ a: inout [T], low: Int, high: Int) {
     if low < high {
         let pivotIndex = random(min: low, max: high)

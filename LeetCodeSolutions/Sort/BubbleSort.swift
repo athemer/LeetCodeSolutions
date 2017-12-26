@@ -12,6 +12,8 @@
 
 import Foundation
 
+
+
 func bubbleSort(_ input: inout [Int]) {
     let count: Int = input.count
     var indexSwapped: Int = -1
@@ -25,5 +27,3 @@ func bubbleSort(_ input: inout [Int]) {
         }
     } while indexSwapped != 1
 }
-
-
