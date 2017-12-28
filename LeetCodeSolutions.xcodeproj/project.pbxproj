@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F553C4A91FF4EC7100D3F282 /* Solution495.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C4A81FF4EC7100D3F282 /* Solution495.swift */; };
 		F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */; };
 		F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */; };
 		F56B34121FDE4F2A00F7F9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F553C4A81FF4EC7100D3F282 /* Solution495.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution495.swift; sourceTree = "<group>"; };
 		F56B34091FDE4F2A00F7F9D1 /* LeetCodeSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				F59D93F81FE8BF3E0081A0E1 /* Solution739.swift */,
 				F59D93FA1FE8EBE20081A0E1 /* Solution526.swift */,
+				F553C4A81FF4EC7100D3F282 /* Solution495.swift */,
 			);
 			path = "Medium Level Solutions";
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */,
 				F5CACAA21FE74F3000FF38F5 /* QuickSort.swift in Sources */,
 				F59D93F91FE8BF3E0081A0E1 /* Solution739.swift in Sources */,
+				F553C4A91FF4EC7100D3F282 /* Solution495.swift in Sources */,
 				F5EFFCFA1FF24D7900934F73 /* Solution496.swift in Sources */,
 				F5CACAA41FE76A0A00FF38F5 /* Solution121.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
