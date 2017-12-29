@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F553C4A91FF4EC7100D3F282 /* Solution495.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C4A81FF4EC7100D3F282 /* Solution495.swift */; };
+		F553C4AB1FF4F63100D3F282 /* Solution605.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C4AA1FF4F63100D3F282 /* Solution605.swift */; };
 		F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */; };
 		F56B340F1FDE4F2A00F7F9D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */; };
 		F56B34121FDE4F2A00F7F9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56B34101FDE4F2A00F7F9D1 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		F553C4A81FF4EC7100D3F282 /* Solution495.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution495.swift; sourceTree = "<group>"; };
+		F553C4AA1FF4F63100D3F282 /* Solution605.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution605.swift; sourceTree = "<group>"; };
 		F56B34091FDE4F2A00F7F9D1 /* LeetCodeSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56B340C1FDE4F2A00F7F9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F56B340E1FDE4F2A00F7F9D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				F5CACAA51FE78EE500FF38F5 /* Solution53.swift */,
 				F59C13291FEBAA82005EDA70 /* Solution475.swift */,
 				F5EFFCF91FF24D7900934F73 /* Solution496.swift */,
+				F553C4AA1FF4F63100D3F282 /* Solution605.swift */,
 			);
 			path = "Easy Level Solutions";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				F5EFFCFA1FF24D7900934F73 /* Solution496.swift in Sources */,
 				F5CACAA41FE76A0A00FF38F5 /* Solution121.swift in Sources */,
 				F56B340D1FDE4F2A00F7F9D1 /* AppDelegate.swift in Sources */,
+				F553C4AB1FF4F63100D3F282 /* Solution605.swift in Sources */,
 				F5CACAA01FE3D90D00FF38F5 /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
