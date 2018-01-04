@@ -35,6 +35,7 @@
 		F5CACAA61FE78EE500FF38F5 /* Solution53.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CACAA51FE78EE500FF38F5 /* Solution53.swift */; };
 		F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB0581FE0D551002C3848 /* Solution520.swift */; };
 		F5DEB05B1FE12629002C3848 /* Solution283.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DEB05A1FE12629002C3848 /* Solution283.swift */; };
+		F5E758A01FFDC14C00903718 /* Solution735.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E7589F1FFDC14C00903718 /* Solution735.swift */; };
 		F5EFFCFA1FF24D7900934F73 /* Solution496.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EFFCF91FF24D7900934F73 /* Solution496.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		F5CACAA51FE78EE500FF38F5 /* Solution53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution53.swift; sourceTree = "<group>"; };
 		F5DEB0581FE0D551002C3848 /* Solution520.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution520.swift; sourceTree = "<group>"; };
 		F5DEB05A1FE12629002C3848 /* Solution283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution283.swift; sourceTree = "<group>"; };
+		F5E7589F1FFDC14C00903718 /* Solution735.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution735.swift; sourceTree = "<group>"; };
 		F5EFFCF91FF24D7900934F73 /* Solution496.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution496.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				F59D93F81FE8BF3E0081A0E1 /* Solution739.swift */,
 				F59D93FA1FE8EBE20081A0E1 /* Solution526.swift */,
 				F553C4A81FF4EC7100D3F282 /* Solution495.swift */,
+				F5E7589F1FFDC14C00903718 /* Solution735.swift */,
 			);
 			path = "Medium Level Solutions";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				F59C132A1FEBAA82005EDA70 /* Solution475.swift in Sources */,
 				F5CACA981FE2610600FF38F5 /* Solution268.swift in Sources */,
 				F56B34201FDE4F6100F7F9D1 /* Solution476.swift in Sources */,
+				F5E758A01FFDC14C00903718 /* Solution735.swift in Sources */,
 				F5DEB0591FE0D551002C3848 /* Solution520.swift in Sources */,
 				F5CACA9C1FE2762700FF38F5 /* Solution202.swift in Sources */,
 				F56B34361FDFB9E900F7F9D1 /* Solution441.swift in Sources */,
@@ -395,7 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4969G5673S;
+				DEVELOPMENT_TEAM = L4A6HT8PJ2;
 				INFOPLIST_FILE = LeetCodeSolutions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doit.LeetCodeSolutions;
@@ -410,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4969G5673S;
+				DEVELOPMENT_TEAM = L4A6HT8PJ2;
 				INFOPLIST_FILE = LeetCodeSolutions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doit.LeetCodeSolutions;
