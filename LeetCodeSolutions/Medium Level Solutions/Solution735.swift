@@ -17,6 +17,44 @@ import Foundation
 class Solution735 {
     func asteroidCollision(_ asteroids: [Int]) -> [Int] {
         
+        guard asteroids.count > 2 else { return asteroids }
+        
+        var index = 1, end = 0, copied = asteroids
+        
+        while index < copied.count {
+            
+            if end == -1 {
+                
+                copied[0] = copied[index]
+                end = 0
+                index += 1
+                continue
+                
+            } else {
+    
+                if copied[end] > 0 && copied[index] < 0 {
+                    
+                    if abs(copied[end]) == abs(copied[index]) {
+                        end -= 1
+                        index += 1
+                    } else if abs(copied[end]) > abs(copied[index]) {
+                        index += 1
+                    } else {
+                        end -= 1
+                    }
+                    
+                } else {
+                    end += 1
+                    copied[end] = copied[index]
+                    index += 1
+                }
+                
+            }
+            
+            
+        }
+        
+        return []
     }
 }
 
