@@ -1,5 +1,5 @@
 // MARK: Beat -
-//   % Swift answers
+//   FAILED TO ANSWER % Swift answers
 
 // MARK: Reference -
 
@@ -16,47 +16,84 @@ import Foundation
 // MARK: Answer - 1
 class Solution735 {
     func asteroidCollision(_ asteroids: [Int]) -> [Int] {
-        
-        guard asteroids.count > 2 else { return asteroids }
-        
-        var index = 1, end = 0, copied = asteroids
-        
-        while index < copied.count {
-            
-            if end == -1 {
-                
-                copied[0] = copied[index]
-                end = 0
-                index += 1
-                continue
-                
-            } else {
-    
-                if copied[end] > 0 && copied[index] < 0 {
-                    
-                    if abs(copied[end]) == abs(copied[index]) {
-                        end -= 1
-                        index += 1
-                    } else if abs(copied[end]) > abs(copied[index]) {
-                        index += 1
-                    } else {
-                        end -= 1
-                    }
-                    
-                } else {
-                    end += 1
-                    copied[end] = copied[index]
-                    index += 1
+        var stack = [Int]()
+        for asteroid in asteroids {
+            if asteroid > 0 {
+                stack.append(asteroid)
+            } else if let last = stack.last, last > 0 {
+                let currAsteroid = abs(asteroid)
+                if last < currAsteroid {
+                    stack.removeLast()
+                    stack.append(-currAsteroid)
+                } else if currAsteroid == last {
+                    stack.removeLast()
                 }
-                
+            } else {
+                stack.append(asteroid)
             }
             
-            
+            while stack.count > 1, let last = stack.last, last < 0, stack[stack.count-2] > 0  {
+                let prevAsteroid = stack[stack.count-2]
+                let lastAsteroid = abs(last)
+                if lastAsteroid < prevAsteroid {
+                    stack.removeLast()
+                } else if prevAsteroid == lastAsteroid {
+                    stack.removeLast()
+                    stack.removeLast()
+                }  else {
+                    stack.removeLast()
+                    stack.removeLast()
+                    stack.append(-lastAsteroid)
+                }
+            }
         }
-        
-        return []
+        return stack
     }
 }
 
 // MARK: OtherSolutions - 1
+
+func asteroidCollision(_ asteroids: [Int]) -> [Int] {
+    if asteroids.count < 2 {
+        return asteroids
+    }
+    
+    var result: [Int] = []
+    
+    for i in 0..<asteroids.count {
+        
+        if result.isEmpty || asteroids[i] > 0 {
+            result.append(asteroids[i])
+            continue
+        }
+        
+        if result.last! * asteroids[i] > 0 {
+            result.append(asteroids[i])
+            continue
+        }
+        
+        if asteroids[i] < 0 {
+            
+            removing: while result.last! <= asteroids[i] || result.last! * asteroids[i] < 0 {
+                
+                if result.last! < -asteroids[i] {
+                    result.remove(at: result.count - 1)
+                    
+                    if result.isEmpty || result.last! * asteroids[i] > 0 {
+                        result.append(asteroids[i])
+                        break removing
+                    }
+                } else if result.last! == -asteroids[i] {
+                    result.remove(at: result.count - 1)
+                    break removing
+                } else {
+                    break removing
+                }
+            }
+        }
+    }
+    
+    return result
+}
+
 
