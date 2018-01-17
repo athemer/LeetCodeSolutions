@@ -12,9 +12,11 @@
 //Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Two asteroids moving in the same direction will never meet.
 
 import Foundation
+import UIKit
 
 // MARK: Answer - 1
 class Solution735 {
+    
     func asteroidCollision(_ asteroids: [Int]) -> [Int] {
         var stack = [Int]()
         for asteroid in asteroids {
@@ -52,7 +54,7 @@ class Solution735 {
 }
 
 // MARK: OtherSolutions - 1
-
+/*
 func asteroidCollision(_ asteroids: [Int]) -> [Int] {
     if asteroids.count < 2 {
         return asteroids
@@ -95,5 +97,8 @@ func asteroidCollision(_ asteroids: [Int]) -> [Int] {
     
     return result
 }
+*/
+
+
 
 
