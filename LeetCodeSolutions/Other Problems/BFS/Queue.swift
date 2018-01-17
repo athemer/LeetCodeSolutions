@@ -51,3 +51,9 @@ public struct Queue<T> {
     }
 }
 
+func swapTwoValues<T: Comparable>(a: T, b: T) -> Bool {
+    return a > b
+}
+
+
+
